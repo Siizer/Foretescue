@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6em;
+  height: 100%;
+}
+
+circle.vectora {
+  fill: rgba(255, 255, 255, 0.1);
+  stroke: #000;
+  stroke-width: 0.2px;
+}
+circle.vectorb {
+  fill: rgba(255, 255, 255, 0.1);
+  stroke: #000;
+  stroke-width: 0.2px;
+}
+circle.vectorc {
+  fill: rgba(255, 255, 255, 0.1);
+  stroke: #000;
+  stroke-width: 0.2px;
+}
+
+polyline {
+  stroke-width: 5px;
+}
+polyline.vectora {
+  stroke: #dc143c;
+  stroke-width: 4.5px;
+  stroke-linecap: round;
+}
+polyline.vectorb {
+  stroke: gold;
+  stroke-width: 4.5px;
+  stroke-linecap: round;
+}
+polyline.vectorc {
+  stroke: blue;
+  stroke-width: 4.5px;
+  stroke-linecap: round;
+}
+
+text.vectora {
+  fill: #dc143c;
+  font-size: 24px;
+  font-weight: bold;
+}
+text.vectorb {
+  fill: gold;
+  font-size: 24px;
+  font-weight: bold;
+}
+text.vectorc {
+  fill: blue;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+polyline.vector2 {
+  stroke: magenta;
+  stroke-width: 3px;
+}
+
+.NegativeSequence {
+  stroke:magenta
+}
+
+polyline.vector1 {
+  stroke: limegreen;
+  stroke-width: 3px;
+}
+
+.PositiveSequence {
+  stroke:limegreen
+}
+
+polyline.vector0 {
+  stroke: darkgrey;
+  stroke-width: 3px;
+}
+
+.ZeroSequence {
+  stroke:darkgrey
+}
+
+#mark2 {
+  fill: magenta;
+}
+#mark1 {
+  fill: limegreen;
+}
+#mark0 {
+  fill: darkgrey;
+}
+marker {
+  fill: black;
+}
+#marka {
+  fill: #dc143c;
+}
+#markb {
+  fill: gold;
+}
+#markc {
+  fill: blue;
+}
